@@ -1,0 +1,38 @@
+Function orver loadin g
+create a simple vector class
+class Vector2
+{
+    private _x: number;
+    private _y: numbrer;
+
+    get x():number
+    {
+        return this. _x
+    }
+
+    set x(newX:number)
+    {
+        this._x = newX;
+    }
+
+    get y():number
+    {
+        return this. _y
+    }
+
+    set y(newY:number)
+    {
+        this._y = newY;
+    }
+
+    //if want to user an array we can user another constructor 
+
+    constructor(x: number , y: number )
+    constructor(coordinates: number[])
+    constructor(first: number[] | number =0, second:number =0)
+
+    {
+        this._x =x; 
+        this._y=y;
+    }
+}
